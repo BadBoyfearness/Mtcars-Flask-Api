@@ -16,7 +16,7 @@ def flask_app():
     @app.route('/', methods=['GET'])
     def server_is_up():
         # print("success")
-        return 'everything looks good! :) \n \n'
+        return 'The server is up. \n \n'
 
     @app.route('/mpg', methods=['POST'])
     def start():

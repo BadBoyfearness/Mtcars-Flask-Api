@@ -26,11 +26,11 @@ You should get the following response:
 
 To predict `MPG` from the other variables, run a command of the following format:
 
-`curl -H "Content-Type: application/json" -X POST -d '{"cyl":"6", "disp":"160", "hp":"110","draft":"3.7"}' "http://localhost:5000/mpg""`
+`curl -H "Content-Type: application/json" -X POST -d '{"cyl":"6", "disp":"160", "hp":"110","drat":"3.7"}' "http://localhost:5000/mpg""`
 
 The above command should produce the following result:
 
-`{"mpg": 27.63627258279724}`
+`{"mpg": 22.29890626372743}`
 
 You can modify the variable values, and you can also adjust the number of cars for which you would like to predict the MPG. This example includes 1 car.
 
